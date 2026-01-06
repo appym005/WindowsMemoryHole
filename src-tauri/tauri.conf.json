@@ -1,0 +1,25 @@
+{
+  "productName": "BlackHoleWheel",
+  "version": "0.0.1",
+  "identifier": "com.blackholewheel.app",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build",
+    "devUrl": "http://localhost:5173",
+    "frontendDist": "../frontend/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "BlackHoleWheel",
+        "width": 400,
+        "height": 300,
+        "visible": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  }
+}
